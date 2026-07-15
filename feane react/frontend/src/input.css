@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.hero-section {
+  height: 75vh;
+}

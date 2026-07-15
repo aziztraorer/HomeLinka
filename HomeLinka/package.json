@@ -1,0 +1,29 @@
+{
+  "name": "homelinka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziztraorer/HomeLinka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aziztraorer/HomeLinka/issues"
+  },
+  "homepage": "https://github.com/aziztraorer/HomeLinka#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.7.4",
+    "nodemon": "^3.1.14"
+  }
+}
